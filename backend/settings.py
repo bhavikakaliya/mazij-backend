@@ -198,16 +198,16 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 # Channel layer definitions
 # http://channels.readthedocs.org/en/latest/deploying.html#setting-up-a-channel-backend
  
-ASGI_APPLICATION = "channels_app.routing.application"
+# ASGI_APPLICATION = "channels_app.routing.application"
 
-CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": ['redis://localhost:6379/4']
-        }
-    },
-}
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisChannelLayer",
+#         "CONFIG": {
+#             "hosts": ['redis://localhost:6379/4']
+#         }
+#     },
+# }
 
 TEST_RUNNER = 'django_heroku.HerokuDiscoverRunner'
 
