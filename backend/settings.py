@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-snve_n$ejwg(6^(ugxx-)@b(5o1)+!445ky1p2x*!j#2hmnt-k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'https://mazij-backend.herokuapp.com/']
 
 
 # Application definition
