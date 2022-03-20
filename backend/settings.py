@@ -192,7 +192,6 @@ LOGGING = {
 CORS_ALLOW_METHODS = ["DELETE","GET","OPTIONS","PATCH","POST","PUT",]
 # Activate Django-Heroku.
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-django_heroku.settings(locals())
 
 
 # Channel layer definitions
@@ -208,3 +207,7 @@ CHANNEL_LAYERS = {
         }
     },
 }
+
+TEST_RUNNER = 'django_heroku.HerokuDiscoverRunner'
+
+django_heroku.settings(locals())
