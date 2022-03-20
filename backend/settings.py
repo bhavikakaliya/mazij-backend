@@ -35,9 +35,9 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 SECRET_KEY = 'django-insecure-snve_n$ejwg(6^(ugxx-)@b(5o1)+!445ky1p2x*!j#2hmnt-k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'https://mazij-backend.herokuapp.com/']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'mazij-backend.herokuapp.com']
 
 
 # Application definition
@@ -108,10 +108,10 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'userbase',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':'localhost',
+        'NAME': 'sql6480295',
+        'USER':'sql6480295',
+        'PASSWORD':'zbBEBISTz5',
+        'HOST':'sql6.freemysqlhosting.net',
         'PORT':'3306',
         # 'OPTIONS': {'sslmode': 'require'}
     }
