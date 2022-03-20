@@ -1,5 +1,1 @@
-release: python manage.py makemigrations --no-input
-release: python manage.py migrate --no-input
-release: python manage.py migrate --run-syncdb --no-input
-
-web: gunicorn backend.wsgi
+web: gunicorn backend.wsgi --log-file -
