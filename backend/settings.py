@@ -107,12 +107,13 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sql6480295',
-        'USER':'sql6480295',
-        'PASSWORD':'zbBEBISTz5',
-        'HOST':'sql6.freemysqlhosting.net',
-        'PORT':'3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'NAME': 'sql6480295',
+        # 'USER':'sql6480295',
+        # 'PASSWORD':'zbBEBISTz5',
+        # 'HOST':'sql6.freemysqlhosting.net',
+        # 'PORT':'3306',
         # 'OPTIONS': {'sslmode': 'require'}
     }
 }
