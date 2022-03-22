@@ -35,7 +35,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 SECRET_KEY = 'django-insecure-snve_n$ejwg(6^(ugxx-)@b(5o1)+!445ky1p2x*!j#2hmnt-k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'mazij-backend.herokuapp.com', 'bhavikakaliya.pythonanywhere.com', 'mazijchat.web.app']
 
@@ -109,12 +109,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        # 'NAME': 'sql6480295',
-        # 'USER':'sql6480295',
-        # 'PASSWORD':'zbBEBISTz5',
-        # 'HOST':'sql6.freemysqlhosting.net',
-        # 'PORT':'3306',
-        # 'OPTIONS': {'sslmode': 'require'}
     }
 }
 
