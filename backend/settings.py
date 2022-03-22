@@ -35,7 +35,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 SECRET_KEY = 'django-insecure-snve_n$ejwg(6^(ugxx-)@b(5o1)+!445ky1p2x*!j#2hmnt-k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'mazij-backend.herokuapp.com', 'bhavikakaliya.pythonanywhere.com', 'mazijchat.web.app']
 
