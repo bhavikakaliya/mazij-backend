@@ -1,2 +1,4 @@
 ﻿# Backend for Mazij
-  Deployed on pythonanywhere: https://bhavikakaliya.pythonanywhere.com/
+ 
+ Full Code on: https://github.com/KulsoomKamilKhan/Mazij-app/
+ Deployed on pythonanywhere: https://bhavikakaliya.pythonanywhere.com/
